@@ -1,0 +1,20 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    mix-blend-mode: difference;
+}
+#text{
+    font-size: 6rem;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    background-color:black;
+    position: absolute;
+    border-radius: 50%;
+}
