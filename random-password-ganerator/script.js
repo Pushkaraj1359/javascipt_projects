@@ -5,6 +5,7 @@ const numberSet = "1234567890"
 const symbolSet = "!@#$%^&*()_+/"
 
 
+
 // selectors
 const passBox = document.getElementById("pass-box");
 const totalChar = document.getElementById("total-char");
