@@ -6,7 +6,7 @@ const questions = [
         'c'   : 'javascript',
         'd'   :  'php',
         'correct': 'a'
-    }, 
+    },  
     {
         'que' : 'what year was javascript launched?',
         'a'   : '1996',

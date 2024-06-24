@@ -6,7 +6,7 @@ item.addEventListener("keyup",function(event){
         addToDo(this.value);
         this.value = ""
     }
-})
+}) 
 const addToDo = (item)=> {
     const listItem = document.createElement("li");
     listItem.innerHTML = `
