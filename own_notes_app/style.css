@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+#main{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 20px;
+}
+.note{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    margin-top: 50px;
+}
+.tool{
+    width: 100%;
+    background-color:#2C3A47;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
+.tool i{
+    padding: 5px;
+    cursor: pointer;
+}
+.note textarea{
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.note textarea:focus{
+    border: none;
+    outline: none;
+}
+#addBtn{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
