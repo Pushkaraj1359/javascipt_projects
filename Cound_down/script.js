@@ -5,7 +5,7 @@ const inputs = document.querySelectorAll("input");
 
 function clock(){
     const end = new Date(endDate);
-    const now = new Date();
+    const now = new Date(); 
     const diff=(end-now) / 1000;
 
     if(diff < 0) return

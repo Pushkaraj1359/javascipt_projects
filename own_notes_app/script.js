@@ -30,7 +30,7 @@ const addNote = () => {
     note.querySelector(".trash").addEventListener("click",function (){
         note.remove();
         saveNotes();
-    })
+    }) 
     
     note.querySelector(".save").addEventListener("click",function(){
         saveNotes();
