@@ -2,7 +2,7 @@ const endDate ="13 june 2024 08:00 PM";// update this date
 document.querySelector("#end-date").innerText = endDate;
 const inputs = document.querySelectorAll("input");
 
-
+// play with dynamically put data inside UI with the help of DOM Manupalation.
 function clock(){
     const end = new Date(endDate);
     const now = new Date(); 
