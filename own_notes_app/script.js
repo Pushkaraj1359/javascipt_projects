@@ -1,6 +1,8 @@
 const addBtn = document.querySelector("#addBtn")
 const main = document.querySelector("#main");
 
+// play with API fetch() and access and display data. 
+
 const saveNotes = () =>{
     const notes = document.querySelectorAll(".note textarea");
     const data = [];
